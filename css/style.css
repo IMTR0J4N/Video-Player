@@ -4,6 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #video-container {
@@ -47,7 +48,6 @@ progress {
     width: 65%;
     position: absolute;
     right: 4%;
-    accent-color: #dcdbe7;
 }
 
 
