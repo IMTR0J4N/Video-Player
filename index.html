@@ -9,14 +9,14 @@
   </head>
   <body>
       <div id="video-container">
-        <video class="video" id="video">
+        <video class="video" id="video" loop muted autoplay>
           <source src="/video.mp4" type="video/mp4">
         </video>
         <div id="base-container">
           <input type="button" value="BACK 10S" class="controls-btn" id="back-btn">
           <input type="button" value="SKIP 10S" class="controls-btn" id="skip-btn">
           <input type="button" value="RESET" class="controls-btn" id="reset-btn">
-          <progress id="progress-bar"></progress>
+          <progress id="progress-bar" value="0" max="100"></progress>
         </div>
       </div>
     <script src="./js/app.js" type="module"></script>
