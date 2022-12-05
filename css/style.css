@@ -14,6 +14,8 @@ body {
     align-items: center;
     width: 60vw;
     height: 70vh;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 video {
@@ -21,6 +23,7 @@ video {
     position: absolute;
     height: auto;
     width: 100%;
+
 }
 
 #base-container {
