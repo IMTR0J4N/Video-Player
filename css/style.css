@@ -44,7 +44,7 @@ video {
 }
 
 progress {
-    width: 55%;
+    width: 65%;
     position: absolute;
     right: 4%;
     accent-color: #dcdbe7;
@@ -58,10 +58,10 @@ progress {
 
 #skip-btn {
     position: absolute;
-    left: 16%;
+    left: 13%;
 }
 
 #reset-btn {
     position: absolute;
-    left: 28%;
+    left: 22%;
 }
