@@ -6,15 +6,62 @@ body {
     align-items: center;
 }
 
-div {
+#video-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 60vw;
-    height: 75vh;
+    height: 60vh;
 }
 
 video {
+    top: 0px;
+    position: absolute;
     height: auto;
     width: 100%;
+}
+
+#base-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    bottom: 0px;
+    background-color: #48387b;
+}
+
+.controls-btn {
+    border: none;
+    background: none;
+    font-weight: bold;
+    color: #dcdbe7;
+    opacity: 1;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+progress {
+    width: 55%;
+    position: absolute;
+    right: 4%;
+    accent-color: #dcdbe7;
+}
+
+
+#back-btn {
+    position: absolute;
+    left: 3%;
+}
+
+#skip-btn {
+    position: absolute;
+    left: 16%;
+}
+
+#reset-btn {
+    position: absolute;
+    left: 28%;
 }
